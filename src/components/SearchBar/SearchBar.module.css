@@ -1,0 +1,23 @@
+.header {
+  padding: 20px;
+  background-color: #721dc2;
+}
+.form {
+  display: flex;
+  align-items: center;
+  max-width: 350px;
+  margin: auto;
+}
+.input {
+  padding: 8px 12px;
+  margin-right: 16px;
+  height: 40px;
+}
+.btn {
+  padding: 8px 12px;
+  max-width: 120px;
+  color: #212121;
+  background-color: #f1ea20;
+  border: none;
+  font-size: 20px;
+}

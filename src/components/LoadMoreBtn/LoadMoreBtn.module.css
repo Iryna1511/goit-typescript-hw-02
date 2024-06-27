@@ -1,0 +1,12 @@
+.btn {
+  display: block;
+  padding: 8px 12px;
+  max-width: 124px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+  color: #fafafa;
+  background-color: #721dc2;
+  border: none;
+  font-size: 20px;
+}
