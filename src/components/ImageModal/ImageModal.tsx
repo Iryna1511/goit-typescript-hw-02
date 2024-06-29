@@ -1,11 +1,13 @@
-import Modal from "react-modal";
-import css from "./ImageModal.module.css";
+import { FC } from 'react';
+import Modal from 'react-modal';
+import css from './ImageModal.module.css';
+import {ImageModalProps} from '../types';
 
-export default function ImageModal({
+const ImageModal: FC<ImageModalProps> = ({
   isModalOpen,
   closeModal,
   imageInfo: { alt, url },
-}) {
+}) => {
   return (
     <>
       <Modal
@@ -22,4 +24,6 @@ export default function ImageModal({
       </Modal>
     </>
   );
-}
+};
+
+export default ImageModal;
